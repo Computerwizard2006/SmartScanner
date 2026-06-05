@@ -1,66 +1,93 @@
-📝 SmartScanner - AI Powered Document Scanner
+# 📝 SmartScanner – AI Powered Document Scanner
 
-SmartScanner is a high-performance Android application designed to bridge the gap between physical documents and digital data. Leveraging Google's ML Kit OCR and CameraX API, it allows users to capture images, extract text in real-time, and export them into professional PDF documents.
-Android Java ML Kit License
+SmartScanner is a high-performance Android application that bridges the gap between physical documents and digital data.  
+It uses Google ML Kit OCR and CameraX API to scan documents, extract text in real-time, and export them as professional PDF files.
 
-🚀 Key Features
-• Smart AI Scanning: Utilizes Google ML Kit's Text Recognition (OCR) to extract text from images with high accuracy.
-• Real-time Camera Integration: Built on Android Jetpack's CameraX for a smooth and responsive camera preview.
-• PDF Generation: Instantly convert extracted text into professional PDF files stored directly in the device's Documents folder.
-• Scan History: Maintain a local history of all previous scans using Gson and SharedPreferences for quick access.
-• Modern UI/UX: Clean, intuitive interface with real-time feedback and custom permission handling.
-• Scoped Storage: Fully compatible with Android 10+ (API 29+) storage policies.
+## 🚀 Key Features
 
-🛠️ Tech Stack & Libraries
+✨ **Smart AI Scanning**  
+Uses Google ML Kit’s Text Recognition (OCR) for highly accurate text extraction from images.
 
-• Language: Java
-• Jetpack CameraX: For advanced camera control and image capture.
-• Google ML Kit: For high-speed Optical Character Recognition (OCR).
-• iText7: Professional library for generating high-quality PDF documents.
-• Gson: To handle data serialization for the History feature.
-• Material Design: For a professional and modern look.
+📷 **Real-time Camera Integration**  
+Built with Android Jetpack CameraX for smooth, fast, and responsive camera preview.
 
-📸 Screenshots
+📄 **PDF Generation**  
+Instantly convert extracted text into well-formatted PDF files stored in the device storage.
 
-Home Screen
-OCR Processing
-PDF Saved
-Preview
-Extraction
-History
+🕘 **Scan History**  
+Stores previous scans locally using Gson + SharedPreferences for quick access anytime.
 
-⚙️ Installation
-1. Clone the Repository:
-Shell Script
+🎨 **Modern UI/UX**  
+Clean and intuitive Material Design interface with proper permission handling and real-time feedback.
+
+📱 **Scoped Storage Support**  
+Fully compatible with Android 10+ (API 29+) storage policies.
+
+## 🛠️ Tech Stack & Libraries
+
+- ☕ Language: Java  
+- 📸 CameraX (Jetpack): Advanced camera control and image capture  
+- 🤖 Google ML Kit: Optical Character Recognition (OCR)  
+- 📑 iText7: Professional PDF generation  
+- 💾 Gson: Data serialization for local history storage  
+- 🎨 Material Design Components: Modern UI styling
+
+## 📸 Screenshots
+
+Add your app screenshots here:
+
+- Home Screen  
+- OCR Processing  
+- PDF Output  
+- Saved Documents  
+- Scan History  
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
 git clone https://github.com/yourusername/SmartScanner.git
-2. Open in Android Studio:
-◦ File > Open > Select SmartScanner folder.
-3. Sync Gradle:
-◦ Wait for the project to download all dependencies (ML Kit, iText, CameraX).
-4. Run:
-◦ Connect your device and click Run 'app'.
 
+2. Open in Android Studio
+Go to File > Open
+Select the SmartScanner project folder
+3. Sync Gradle
+Wait for all dependencies to download (CameraX, ML Kit, iText, etc.)
+4. Run the App
+Connect your Android device or emulator
+Click Run ▶ app
 📂 Project Structure
 com.example.smartscanner
- ┣ 📂 activities
- ┃ ┗ 📜 HistoryActivity.java   # Manages saved scan logs
- ┣ 📂 models
- ┃ ┗ 📜 ScanModel.java        # Data model for scans
- ┣ 📂 utils
- ┃ ┗ 📜 HistoryManager.java    # Local storage logic (Gson)
- ┗ 📜 MainActivity.java       # Core Logic (Camera + OCR + PDF)
-
+┣ 📂 activities
+┃ ┗ 📜 HistoryActivity.java   # Manages scan history screen
+┣ 📂 models
+┃ ┗ 📜 ScanModel.java         # Data model for scanned documents
+┣ 📂 utils
+┃ ┗ 📜 HistoryManager.java    # Handles local storage (Gson)
+┗ 📜 MainActivity.java        # Core logic (Camera + OCR + PDF)
 🛡️ Permissions Required
-To provide a seamless experience, the app requires:
-• CAMERA: To capture document images.
-• WRITE_EXTERNAL_STORAGE (API < 29): To save PDF files locally.
+
+To ensure proper functionality, the app requires:
+
+📷 CAMERA → To capture document images
+💾 WRITE_EXTERNAL_STORAGE (API < 29) → To save generated PDF files
 
 🤝 Contributing
-Contributions are welcome! If you have ideas for features (like Cloud Sync or Image Filtering), feel free to:
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
+Contributions are welcome 🚀
 
-Developed with ❤️ by MINAHIL FATIMA
+If you have ideas like:
+Cloud Sync ☁️
+Image Enhancement Filters 🎛️
+AI Document Summarization 🤖
+
+Feel free to improve the project!
+
+Steps:
+git checkout -b feature/AmazingFeature
+git commit -m "Add Amazing Feature"
+git push origin feature/AmazingFeature
+
+Then open a Pull Request.
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
