@@ -72,7 +72,7 @@ To ensure proper functionality, the app requires:
 📷 CAMERA → To capture document images
 💾 WRITE_EXTERNAL_STORAGE (API < 29) → To save generated PDF files
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome 🚀
 
 If you have ideas like:
@@ -82,12 +82,12 @@ AI Document Summarization 🤖
 
 Feel free to improve the project!
 
-Steps:
+### Steps:
 git checkout -b feature/AmazingFeature
 git commit -m "Add Amazing Feature"
 git push origin feature/AmazingFeature
 
 Then open a Pull Request.
 
-⭐ Support
+### ⭐ Support
 If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
